@@ -15,6 +15,7 @@ public class AreaOfRectangle {
         Scanner moreInput = new Scanner(System.in);
         System.out.println("Enter the width of the rectangle:");
         width = moreInput.nextInt();
+        input.close();
 
 
         area = length * width;

@@ -15,6 +15,7 @@ public class MilesPerGallon {
         Scanner moreInput = new Scanner(System.in);
         System.out.println("Enter gallons of gas used:");
         gasUsed = moreInput.nextFloat();
+        input.close();
 
         milesPerGallon = miles/gasUsed;
         System.out.println("Your care gets: " + milesPerGallon + "per gallon");
