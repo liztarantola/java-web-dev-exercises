@@ -19,6 +19,8 @@ public class HashMapsPractice {
                 System.out.println("ID Number: ");
                 Integer id = input.nextInt();
                 students.put(newStudent, id);
+
+                input.nextLine();
             }
         } while (!newStudent.equals(""));
         System.out.println("\nClass roster: ");
