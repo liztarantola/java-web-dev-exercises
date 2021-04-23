@@ -1,4 +1,4 @@
-package exercises.lsncontrolflowandcollections;
+package exercises.controlflowandcollections;
 
 public class ArrayPracticeNum {
     public static void main(String[] args) {

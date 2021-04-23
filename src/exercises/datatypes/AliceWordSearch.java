@@ -1,4 +1,4 @@
-package exercises;
+package exercises.datatypes;
 
 import java.util.Scanner;
 
@@ -14,11 +14,11 @@ public class AliceWordSearch {
         System.out.println("Enter a word to search for: ");
         String word = input.nextLine().toLowerCase();
 
-        Boolean result = firstSentence.contains(word);
+        boolean result = firstSentence.contains(word);
         System.out.println("The first sentence contains your word: " + result);
 
-        Integer index = firstSentence.indexOf(word);
-        Integer length = word.length();
+        int index = firstSentence.indexOf(word);
+        int length = word.length();
         System.out.println("Your word appears at index " + index + ". Your word is " + length + " characters long.");
         String modifiedFirstSentence = firstSentence.replace(word, "");
         System.out.println(modifiedFirstSentence);

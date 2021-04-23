@@ -1,4 +1,4 @@
-package exercises.lsncontrolflowandcollections;
+package exercises.controlflowandcollections;
 
 import java.util.Arrays;
 

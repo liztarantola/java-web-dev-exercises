@@ -1,6 +1,5 @@
-package Studio.ControlFlowAndCollections;
+package Studios.ControlFlowAndCollections;
 
-import java.util.Scanner;
 import java.util.HashMap;
 import java.util.Map;
 
