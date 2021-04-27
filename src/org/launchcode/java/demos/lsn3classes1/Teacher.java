@@ -10,7 +10,7 @@ public class Teacher {
     public Teacher(String firstName, String lastName, String subject, int yearsTeaching) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.subject =subject;
+        this.subject = subject;
         this.yearsTeaching = yearsTeaching;
     }
 

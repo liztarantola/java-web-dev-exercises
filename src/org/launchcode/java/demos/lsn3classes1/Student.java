@@ -34,7 +34,7 @@ public class Student {
         public int  getNumberOfCredits () {
             return numberOfCredits;
         }
-        public void setNumberOfCredits ( int aNumberOfCredits){
+        private void setNumberOfCredits ( int aNumberOfCredits){
             numberOfCredits = aNumberOfCredits;
         }
 
